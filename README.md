@@ -1,4 +1,4 @@
-# surfs_up
+# Surfs_up
 
 ## Overview of the project
 
@@ -33,6 +33,38 @@ that high as compared to `June`.
 ![Dec](analysis_image/dec.png)
 
 ## Summary
+
+We can observe that the standard deviation for the temperature reading data is not much which indicates that the
+temperature does not vary much from the mean for the months of `June` and `December`. We can extrapolate the temperature
+readings for the rest of the year using this data. All in all, this data provides us a hint that weather in Oahu is
+tropical, does not fluctuate much and is suitable for surfing and a scoop of ice-cream. By filtering the data,
+from the most active station, it can be further decided as to where the shop can be opened.
+
+We have devised two additional queries in order to derive more insights from the available data:
+
+1. We can derive the precipitation data for the months of `June` and `December` and get a feel of how precipitation
+levels are for Oahu. Precipitation levels need to be checked and are quite important for Surfing as it is not possible
+or advisable to surf in rainy conditions!
+In order to derive the precipitation data for the months of June and December, we have used the following code:
+
+![June](analysis_image/june_prcp.png)
+
+![Dec](analysis_image/dec_prcp.png)
+
+2. We have also derived the **min, max, and average precipitation** values for the most active station for the month of `June`
+and `December` in order to see how precipitation values change for the station in the two months. The same query can be used to
+retrieve the precipitation levels for other stations as well and this can help us with the best location. Although, precipitation
+levels are not likely to change much with different stations on the same island but it still helps in finding the most suitable
+location.
+In order to derive the min, max and average precipitation data for the months of June and December for the most active station,
+we have used the following query:
+
+![June_Station](analysis_image/june_station.png)
+
+![Dec_Station](analysis_image/dec_station.png)
+
+
+
 
 
 
